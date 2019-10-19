@@ -42,6 +42,12 @@
             'Release_x64': {
                 'msvs_configuration_platform': 'x64',
             },
+            'Debug_Win32': {
+                'msvs_configuration_platform': 'Win32',
+            },
+            'Debug_x64': {
+                'msvs_configuration_platform': 'x64',
+            },
         },
         'msvs_configuration_attributes': {
             'OutputDirectory': '$(SolutionDir)$(ConfigurationName)\\$(Platform)',
