@@ -307,7 +307,7 @@ void ConsoleInput::updateInputFlags(bool forceTrace)
             newFlagEI ? "on" : "off");
     }
     m_enableExtendedEnabled = newFlagEE;
-    m_mouseInputEnabled = newFlagMI;
+    m_mouseInputEnabled = true;
     m_quickEditEnabled = newFlagQE;
     m_escapeInputEnabled = newFlagEI;
 }
